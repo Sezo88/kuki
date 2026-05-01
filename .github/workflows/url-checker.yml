@@ -1,0 +1,190 @@
+name: 🔍 URL Takip & Otomatik Güncelleme
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # Her gün 07:00 TR saatiyle
+  workflow_dispatch:
+
+jobs:
+  url-checker:
+    name: Tüm Provider URL'lerini Kontrol Et
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bağımlılıkları kur
+        run: pip install requests urllib3 2>/dev/null; true
+
+      - name: URL kontrolü çalıştır
+        id: check
+        run: |
+          python3 << 'PYEOF'
+          import requests, json, re, os, datetime
+          from urllib.parse import urlparse
+
+          requests.packages.urllib3.disable_warnings()
+
+          HEADERS = {
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36",
+              "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
+          }
+          TIMEOUT = 12
+
+          # Bilinen domain alternatifleri — URL değişince buraya bakılır
+          ALTERNATES = {
+            "sinemacx":           ["sinemacx.com","sinemacx.net","sinemacx.tv","sinemacx.cc","sinemacx.biz"],
+            "jetfilmizle":        ["jetfilmizle.net","jetfilmizle.co","jetfilmizle.pw","jetfilmizle.biz"],
+            "fullhdfilmizlesene": ["fullhdfilmizlesene.live","fullhdfilmizlesene.com","fullhdfilmizlesene.pw","fullhdfilmizlesene.net"],
+            "sinewix":            ["sinewix.com","sinewix.net","sinewix.co"],
+            "dizifilm":           ["dizifilm.to","dizifilm.co","dizifilm.net","dizifilm.biz"],
+            "diziyou":            ["diziyou.co","diziyou.com","diziyou.net","diziyou.tv"],
+            "hdfilmcehennemi":    ["hdfilmcehennemi.nl","hdfilmcehennemi.com","hdfilmcehennemi.co","hdfilmcehennemi.net"],
+            "dizilla":            ["dizilla.club","dizilla.co","dizilla.net","dizilla.biz"],
+            "dizimom":            ["dizimom.pro","dizimom.com","dizimom.net"],
+            "dizipal":            ["dizipal.video","dizipal.com","dizipal.co","dizipal.net","dizipal.biz"],
+            "dizibox":            ["dizibox.mobi","dizibox.com","dizibox.net","dizibox.co"],
+            "dizikorea":          ["dizikorea.biz","dizikorea.com","dizikorea.net","dizikorea.co"],
+            "filmmakinesi":       ["filmmakinesi.mobi","filmmakinesi.com","filmmakinesi.net"],
+            "filmmodu":           ["filmmodu.biz","filmmodu.com","filmmodu.net","filmmodu.co"],
+            "sezonlukdizi":       ["sezonlukdizi.mobi","sezonlukdizi.com","sezonlukdizi.net"],
+            "turkanime":          ["turkanime.co","turkanime.com","turkanime.net"],
+            "animecix":           ["animecix.net","animecix.com","animecix.co"],
+            "koreanturk":         ["koreanturk.com","koreanturk.net","koreanturk.co"],
+            "inatbox":            ["inatbox.com","inatbox.net","inatbox.co"],
+            "rarefilmm":          ["rarefilmm.com","rarefilmm.net"],
+            "rectv":              ["rectv555.com","rectv001.com","rectv777.com","rectv.watch"],
+            "kultfilmler":        ["kultfilmler.net","kultfilmler.com"],
+            "yesilcamtv":         ["yesilcamtv.mobi","yesilcamtv.com","yesilcamtv.net"],
+            "flixhq":             ["flixhq.to","flixhq.com","flixhq.co"],
+            "yts":                ["yts.mx","yts.lt","yts.am"],
+          }
+
+          with open("config.json","r",encoding="utf-8") as f:
+              config = json.load(f)
+
+          providers = config.get("providers", {})
+          changes = []
+          disabled = []
+          checked = 0
+          total = len(providers)
+
+          def check_url(url):
+              try:
+                  r = requests.get(url, headers=HEADERS, timeout=TIMEOUT,
+                                   allow_redirects=True, verify=False)
+                  final = r.url.rstrip("/")
+                  return final, r.status_code < 400
+              except Exception as e:
+                  return url, False
+
+          def try_alternates(name, old_domain):
+              for domain in ALTERNATES.get(name, []):
+                  if domain == old_domain: continue
+                  url = "https://www." + domain if not domain.startswith("www") else "https://" + domain
+                  try:
+                      r = requests.get(url, headers=HEADERS, timeout=8,
+                                       allow_redirects=True, verify=False)
+                      if r.status_code < 400:
+                          return r.url.rstrip("/")
+                  except: pass
+              return None
+
+          print(f"🔍 {total} provider kontrol ediliyor...\n")
+
+          for name, info in providers.items():
+              checked += 1
+              if not info.get("enabled", True):
+                  continue
+
+              base = info.get("baseUrl","")
+              new_url, ok = check_url(base)
+
+              if not ok:
+                  print(f"❌ [{checked}/{total}] {name}: erişilemez")
+                  old_domain = urlparse(base).netloc
+                  alt = try_alternates(name, old_domain)
+                  if alt:
+                      new_domain = urlparse(alt).netloc
+                      print(f"   ↳ Alternatif bulundu: {new_domain}")
+                      config["providers"][name]["baseUrl"] = alt
+                      changes.append(f"🔄 {name}: {old_domain} → {new_domain}")
+                      # JS güncelle
+                      js_path = f"providers/{name}.js"
+                      if os.path.exists(js_path):
+                          txt = open(js_path).read()
+                          txt = re.sub(r'var FALLBACK_BASE = ["\'][^"\']+["\'];',
+                                       f'var FALLBACK_BASE = "{alt}";', txt)
+                          open(js_path,"w").write(txt)
+                  else:
+                      print(f"   ↳ Alternatif bulunamadı → devre dışı")
+                      config["providers"][name]["enabled"] = False
+                      disabled.append(name)
+                      changes.append(f"❌ {name}: erişilemez → devre dışı")
+              else:
+                  old_d = urlparse(base).netloc
+                  new_d = urlparse(new_url).netloc
+                  if old_d != new_d:
+                      print(f"🔄 [{checked}/{total}] {name}: {old_d} → {new_d}")
+                      config["providers"][name]["baseUrl"] = new_url
+                      changes.append(f"🔄 {name}: {old_d} → {new_d}")
+                      js_path = f"providers/{name}.js"
+                      if os.path.exists(js_path):
+                          txt = open(js_path).read()
+                          txt = re.sub(r'var FALLBACK_BASE = ["\'][^"\']+["\'];',
+                                       f'var FALLBACK_BASE = "{new_url}";', txt)
+                          open(js_path,"w").write(txt)
+                  else:
+                      print(f"✅ [{checked}/{total}] {name}: OK")
+
+          config["_last_checked"] = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+          with open("config.json","w",encoding="utf-8") as f:
+              json.dump(config, f, ensure_ascii=False, indent=2)
+
+          print(f"\n{'='*50}")
+          print(f"✅ Kontrol tamamlandı: {checked}/{total}")
+          if changes:
+              print(f"📋 {len(changes)} değişiklik:")
+              for c in changes: print(f"  {c}")
+              with open("CHANGES.txt","w") as f:
+                  f.write("\n".join(changes))
+              gho = os.environ.get("GITHUB_OUTPUT","/dev/null")
+              open(gho,"a").write("has_changes=true\n")
+          else:
+              print("🎉 Tüm URL'ler güncel, değişiklik yok")
+              gho = os.environ.get("GITHUB_OUTPUT","/dev/null")
+              open(gho,"a").write("has_changes=false\n")
+          PYEOF
+        env:
+          PYTHONWARNINGS: ignore
+
+      - name: Değişiklikleri commit et
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config.json providers/
+          git commit -m "🤖 Otomatik URL güncellemesi $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Özet
+        if: always()
+        run: |
+          echo "## 🔍 URL Takip Sonucu $(date +'%Y-%m-%d')" >> $GITHUB_STEP_SUMMARY
+          if [ -f CHANGES.txt ]; then
+            echo "### Değişiklikler" >> $GITHUB_STEP_SUMMARY
+            cat CHANGES.txt >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ Tüm URL'ler sağlıklı." >> $GITHUB_STEP_SUMMARY
+          fi
