@@ -238,6 +238,8 @@ console.log("Toplam provider:", ids.length);
 
 ids.forEach(function(id) {
   var info = providers[id];
+  if (info.enabled === false) return; // Devre dışı olanları atla
+  
   var catInfo = CATEGORIES[id];
   var targetPath = path.join(outDir, id + ".js");
   var isCustom = fs.existsSync(targetPath) && fs.readFileSync(targetPath, "utf8").indexOf("// CUSTOM PROVIDER") !== -1;

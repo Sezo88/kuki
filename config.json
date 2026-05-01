@@ -3,84 +3,400 @@
   "_last_checked": "2026-04-30",
   "_version": "2.0.0",
   "providers": {
-    "sinemacx": { "baseUrl": "https://www.sinemacx.com", "searchUrl": "/?s=", "enabled": true },
-    "jetfilmizle": { "baseUrl": "https://jetfilmizle.net", "searchUrl": "/?s=", "enabled": true },
-    "fullhdfilmizlesene": { "baseUrl": "https://www.fullhdfilmizlesene.live", "searchUrl": "/?s=", "enabled": true },
-    "sinewix": { "baseUrl": "https://www.sinewix.com", "searchUrl": "/search/", "enabled": true },
-    "dizifilm": { "baseUrl": "https://dizifilm.to", "searchUrl": "/?s=", "enabled": true },
-    "diziyou": { "baseUrl": "https://www.diziyou.co", "searchUrl": "/?s=", "enabled": true },
-    "hdfilmcehennemi": { "baseUrl": "https://www.hdfilmcehennemi.nl", "searchUrl": "/search/", "enabled": true },
-    "dizilla": { "baseUrl": "https://www.dizilla.club", "searchUrl": "/?s=", "enabled": true },
-    "dizimom": { "baseUrl": "https://dizimom.pro", "searchUrl": "/?s=", "enabled": true },
-    "dizipal": { "baseUrl": "https://www.dizipal.video", "searchUrl": "/?s=", "enabled": true },
-    "dizibox": { "baseUrl": "https://www.dizibox.mobi", "searchUrl": "/?s=", "enabled": true },
-    "dizikorea": { "baseUrl": "https://www.dizikorea.biz", "searchUrl": "/?s=", "enabled": true },
-    "dizimag": { "baseUrl": "https://www.dizimag.net", "searchUrl": "/?s=", "enabled": true },
-    "dizigom": { "baseUrl": "https://www.dizigom.bet", "searchUrl": "/?s=", "enabled": true },
-    "diziyoo": { "baseUrl": "https://www.diziyoo.com", "searchUrl": "/?s=", "enabled": true },
-    "diziwatch": { "baseUrl": "https://www.diziwatch.net", "searchUrl": "/?s=", "enabled": true },
-    "filmmakinesi": { "baseUrl": "https://www.filmmakinesi.mobi", "searchUrl": "/?s=", "enabled": true },
-    "filmmodu": { "baseUrl": "https://www.filmmodu.biz", "searchUrl": "/?s=", "enabled": true },
-    "filmekseni": { "baseUrl": "https://www.filmekseni.net", "searchUrl": "/?s=", "enabled": true },
-    "setfilmizle": { "baseUrl": "https://www.setfilmizle.mobi", "searchUrl": "/?s=", "enabled": true },
-    "sezonlukdizi": { "baseUrl": "https://www.sezonlukdizi.mobi", "searchUrl": "/?s=", "enabled": true },
-    "ugurfilm": { "baseUrl": "https://ugurfilm.biz", "searchUrl": "/?s=", "enabled": true },
-    "watch2movies": { "baseUrl": "https://watch2movies.biz", "searchUrl": "/?s=", "enabled": true },
-    "turkanime": { "baseUrl": "https://www.turkanime.co", "searchUrl": "/index.php?icerik=", "enabled": true },
-    "tranimeizle": { "baseUrl": "https://www.tranimeizle.co", "searchUrl": "/?s=", "enabled": true },
-    "animecix": { "baseUrl": "https://animecix.net", "searchUrl": "/?s=", "enabled": true },
-    "koreanturk": { "baseUrl": "https://www.koreanturk.com", "searchUrl": "/?s=", "enabled": true },
-    "webdramaturkey": { "baseUrl": "https://www.webdramaturkey.com", "searchUrl": "/?s=", "enabled": true },
-    "belgeselx": { "baseUrl": "https://www.belgeselx.com", "searchUrl": "/?s=", "enabled": true },
-    "inatbox": { "baseUrl": "https://www.inatbox.com", "searchUrl": "/?s=", "enabled": true },
-    "rarefilmm": { "baseUrl": "https://rarefilmm.com", "searchUrl": "/?s=", "enabled": true },
-    "rectv": { "baseUrl": "https://www.rectv555.com", "searchUrl": "/?s=", "enabled": true },
-    "kultfilmler": { "baseUrl": "https://kultfilmler.net", "searchUrl": "/?s=", "enabled": true },
-    "yesilcamtv": { "baseUrl": "https://www.yesilcamtv.mobi", "searchUrl": "/?s=", "enabled": true },
-    "yenwatch": { "baseUrl": "https://yeniwatch.com", "searchUrl": "/?s=", "enabled": true },
-    "sinezy": { "baseUrl": "https://sinezy.com", "searchUrl": "/?s=", "enabled": true },
-    "sinefy": { "baseUrl": "https://sinefy.com", "searchUrl": "/?s=", "enabled": true },
-    "cizgimax": { "baseUrl": "https://www.cizgimax.net", "searchUrl": "/?s=", "enabled": true },
-    "cizgivedizi": { "baseUrl": "https://www.cizgivedizi.com", "searchUrl": "/?s=", "enabled": true },
-    "openanime": { "baseUrl": "https://openanime.net", "searchUrl": "/?s=", "enabled": true },
-    "kanald": { "baseUrl": "https://www.kanald.com.tr", "searchUrl": "/arama?q=", "enabled": true },
-    "kicktr": { "baseUrl": "https://www.kick.com", "searchUrl": "/search?q=", "enabled": true },
-    "selcukflix": { "baseUrl": "https://selcukflix.com", "searchUrl": "/?s=", "enabled": true },
-    "mirrorverse": { "baseUrl": "https://mirrorverse.xyz", "searchUrl": "/?s=", "enabled": true },
-    "onepacetr": { "baseUrl": "https://onepace.net", "searchUrl": "/?s=", "enabled": true },
-    "tvdiziler": { "baseUrl": "https://www.tvdiziler.com", "searchUrl": "/?s=", "enabled": true },
-    "yabancidizi": { "baseUrl": "https://www.yabancidizi.tv", "searchUrl": "/?s=", "enabled": true },
-    "roketdizi": { "baseUrl": "https://www.roketdizi.com", "searchUrl": "/?s=", "enabled": true },
-    "superfilmgeldi": { "baseUrl": "https://superfilmgeldi.com", "searchUrl": "/?s=", "enabled": true },
-    "netflixmirror": { "baseUrl": "https://netflixmirror.com", "searchUrl": "/?s=", "enabled": true },
-    "izleai": { "baseUrl": "https://izle.ai", "searchUrl": "/?s=", "enabled": true },
-    "fullhdfilm": { "baseUrl": "https://www.fullhdfilm.pro", "searchUrl": "/?s=", "enabled": true },
-    "hdfilmizle": { "baseUrl": "https://www.hdfilmizle.sbs", "searchUrl": "/?s=", "enabled": true },
-    "webteleizle": { "baseUrl": "https://www.webteizle.pro", "searchUrl": "/?s=", "enabled": true },
-    "diziasia": { "baseUrl": "https://www.diziasia.com", "searchUrl": "/?s=", "enabled": true },
-    "diziasya": { "baseUrl": "https://www.diziasya.com", "searchUrl": "/?s=", "enabled": true },
-    "asyadizi": { "baseUrl": "https://www.birasyamizi.com", "searchUrl": "/?s=", "enabled": true },
-    "asya_film": { "baseUrl": "https://www.asyafilmizlesene.com", "searchUrl": "/?s=", "enabled": true },
-    "dizilife": { "baseUrl": "https://dizilife.me", "searchUrl": "/?s=", "enabled": true },
-    "filmkovasi": { "baseUrl": "https://www.filmkovasi.com", "searchUrl": "/?s=", "enabled": true },
-    "filmhane": { "baseUrl": "https://www.filmhane.com", "searchUrl": "/?s=", "enabled": true },
-    "wfilmizle": { "baseUrl": "https://wfilmizle.net", "searchUrl": "/?s=", "enabled": true },
-    "dizican": { "baseUrl": "https://www.dizican.com", "searchUrl": "/?s=", "enabled": true },
-    "dizist": { "baseUrl": "https://dizist.com", "searchUrl": "/?s=", "enabled": true },
-    "golgetv": { "baseUrl": "https://golgetv.com", "searchUrl": "/?s=", "enabled": true },
-    "inikocanli": { "baseUrl": "https://www.ginikocanli.com", "searchUrl": "/arama?q=", "enabled": true },
-    "trt1": { "baseUrl": "https://www.trt1.com.tr", "searchUrl": "/arama?q=", "enabled": true },
-    "trt_cocuk": { "baseUrl": "https://www.trtcocuk.net.tr", "searchUrl": "/arama?q=", "enabled": true },
-    "showtv": { "baseUrl": "https://www.showtv.com.tr", "searchUrl": "/arama?kelime=", "enabled": true },
-    "atv": { "baseUrl": "https://www.atv.com.tr", "searchUrl": "/search?q=", "enabled": true },
-    "startv": { "baseUrl": "https://www.startv.com.tr", "searchUrl": "/search?q=", "enabled": true },
-    "tv8": { "baseUrl": "https://www.tv8.com.tr", "searchUrl": "/search?q=", "enabled": true },
-    "teve2": { "baseUrl": "https://www.teve2.com.tr", "searchUrl": "/arama?q=", "enabled": true },
-    "dmax": { "baseUrl": "https://www.dmax.com.tr", "searchUrl": "/search?q=", "enabled": true },
-    "nowtv": { "baseUrl": "https://www.nowtv.com.tr", "searchUrl": "/search?q=", "enabled": true },
-    "trdizi_izle": { "baseUrl": "https://trdiziizle.net", "searchUrl": "/?s=", "enabled": true },
-    "sezonluk_film": { "baseUrl": "https://sezonlukfilm.net", "searchUrl": "/?s=", "enabled": true },
-    "yts": { "baseUrl": "https://yts.mx", "searchUrl": "/api/v2/list_movies.json?query_term=", "enabled": true },
-    "flixhq": { "baseUrl": "https://flixhq.to", "searchUrl": "/search/", "enabled": true }
+    "sinemacx": {
+      "baseUrl": "https://www.sinemacx.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "jetfilmizle": {
+      "baseUrl": "https://jetfilmizle.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "fullhdfilmizlesene": {
+      "baseUrl": "https://www.fullhdfilmizlesene.live",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "sinewix": {
+      "baseUrl": "https://www.sinewix.com",
+      "searchUrl": "/search/",
+      "enabled": false
+    },
+    "dizifilm": {
+      "baseUrl": "https://dizifilm.to",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "diziyou": {
+      "baseUrl": "https://www.diziyou.co",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "hdfilmcehennemi": {
+      "baseUrl": "https://www.hdfilmcehennemi.nl",
+      "searchUrl": "/search/",
+      "enabled": false
+    },
+    "dizilla": {
+      "baseUrl": "https://www.dizilla.club",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizimom": {
+      "baseUrl": "https://dizimom.pro",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizipal": {
+      "baseUrl": "https://www.dizipal.video",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizibox": {
+      "baseUrl": "https://www.dizibox.mobi",
+      "searchUrl": "/?s=",
+      "enabled": true
+    },
+    "dizikorea": {
+      "baseUrl": "https://www.dizikorea.biz",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizimag": {
+      "baseUrl": "https://www.dizimag.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizigom": {
+      "baseUrl": "https://www.dizigom.bet",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "diziyoo": {
+      "baseUrl": "https://www.diziyoo.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "diziwatch": {
+      "baseUrl": "https://www.diziwatch.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "filmmakinesi": {
+      "baseUrl": "https://www.filmmakinesi.mobi",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "filmmodu": {
+      "baseUrl": "https://www.filmmodu.biz",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "filmekseni": {
+      "baseUrl": "https://www.filmekseni.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "setfilmizle": {
+      "baseUrl": "https://www.setfilmizle.mobi",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "sezonlukdizi": {
+      "baseUrl": "https://www.sezonlukdizi.mobi",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "ugurfilm": {
+      "baseUrl": "https://ugurfilm.biz",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "watch2movies": {
+      "baseUrl": "https://watch2movies.biz",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "turkanime": {
+      "baseUrl": "https://www.turkanime.co",
+      "searchUrl": "/index.php?icerik=",
+      "enabled": false
+    },
+    "tranimeizle": {
+      "baseUrl": "https://www.tranimeizle.co",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "animecix": {
+      "baseUrl": "https://animecix.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "koreanturk": {
+      "baseUrl": "https://www.koreanturk.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "webdramaturkey": {
+      "baseUrl": "https://www.webdramaturkey.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "belgeselx": {
+      "baseUrl": "https://www.belgeselx.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "inatbox": {
+      "baseUrl": "https://www.inatbox.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "rarefilmm": {
+      "baseUrl": "https://rarefilmm.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "rectv": {
+      "baseUrl": "https://www.rectv555.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "kultfilmler": {
+      "baseUrl": "https://kultfilmler.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "yesilcamtv": {
+      "baseUrl": "https://www.yesilcamtv.mobi",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "yenwatch": {
+      "baseUrl": "https://yeniwatch.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "sinezy": {
+      "baseUrl": "https://sinezy.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "sinefy": {
+      "baseUrl": "https://sinefy.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "cizgimax": {
+      "baseUrl": "https://www.cizgimax.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "cizgivedizi": {
+      "baseUrl": "https://www.cizgivedizi.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "openanime": {
+      "baseUrl": "https://openanime.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "kanald": {
+      "baseUrl": "https://www.kanald.com.tr",
+      "searchUrl": "/arama?q=",
+      "enabled": false
+    },
+    "kicktr": {
+      "baseUrl": "https://www.kick.com",
+      "searchUrl": "/search?q=",
+      "enabled": false
+    },
+    "selcukflix": {
+      "baseUrl": "https://selcukflix.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "mirrorverse": {
+      "baseUrl": "https://mirrorverse.xyz",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "onepacetr": {
+      "baseUrl": "https://onepace.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "tvdiziler": {
+      "baseUrl": "https://www.tvdiziler.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "yabancidizi": {
+      "baseUrl": "https://www.yabancidizi.tv",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "roketdizi": {
+      "baseUrl": "https://www.roketdizi.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "superfilmgeldi": {
+      "baseUrl": "https://superfilmgeldi.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "netflixmirror": {
+      "baseUrl": "https://netflixmirror.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "izleai": {
+      "baseUrl": "https://izle.ai",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "fullhdfilm": {
+      "baseUrl": "https://www.fullhdfilm.pro",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "hdfilmizle": {
+      "baseUrl": "https://www.hdfilmizle.sbs",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "webteleizle": {
+      "baseUrl": "https://www.webteizle.pro",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "diziasia": {
+      "baseUrl": "https://www.diziasia.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "diziasya": {
+      "baseUrl": "https://www.diziasya.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "asyadizi": {
+      "baseUrl": "https://www.birasyamizi.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "asya_film": {
+      "baseUrl": "https://www.asyafilmizlesene.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizilife": {
+      "baseUrl": "https://dizilife.me",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "filmkovasi": {
+      "baseUrl": "https://www.filmkovasi.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "filmhane": {
+      "baseUrl": "https://www.filmhane.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "wfilmizle": {
+      "baseUrl": "https://wfilmizle.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizican": {
+      "baseUrl": "https://www.dizican.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "dizist": {
+      "baseUrl": "https://dizist.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "golgetv": {
+      "baseUrl": "https://golgetv.com",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "inikocanli": {
+      "baseUrl": "https://www.ginikocanli.com",
+      "searchUrl": "/arama?q=",
+      "enabled": false
+    },
+    "trt1": {
+      "baseUrl": "https://www.trt1.com.tr",
+      "searchUrl": "/arama?q=",
+      "enabled": false
+    },
+    "trt_cocuk": {
+      "baseUrl": "https://www.trtcocuk.net.tr",
+      "searchUrl": "/arama?q=",
+      "enabled": false
+    },
+    "showtv": {
+      "baseUrl": "https://www.showtv.com.tr",
+      "searchUrl": "/arama?kelime=",
+      "enabled": false
+    },
+    "atv": {
+      "baseUrl": "https://www.atv.com.tr",
+      "searchUrl": "/search?q=",
+      "enabled": false
+    },
+    "startv": {
+      "baseUrl": "https://www.startv.com.tr",
+      "searchUrl": "/search?q=",
+      "enabled": false
+    },
+    "tv8": {
+      "baseUrl": "https://www.tv8.com.tr",
+      "searchUrl": "/search?q=",
+      "enabled": false
+    },
+    "teve2": {
+      "baseUrl": "https://www.teve2.com.tr",
+      "searchUrl": "/arama?q=",
+      "enabled": false
+    },
+    "dmax": {
+      "baseUrl": "https://www.dmax.com.tr",
+      "searchUrl": "/search?q=",
+      "enabled": false
+    },
+    "nowtv": {
+      "baseUrl": "https://www.nowtv.com.tr",
+      "searchUrl": "/search?q=",
+      "enabled": false
+    },
+    "trdizi_izle": {
+      "baseUrl": "https://trdiziizle.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "sezonluk_film": {
+      "baseUrl": "https://sezonlukfilm.net",
+      "searchUrl": "/?s=",
+      "enabled": false
+    },
+    "yts": {
+      "baseUrl": "https://yts.mx",
+      "searchUrl": "/api/v2/list_movies.json?query_term=",
+      "enabled": false
+    },
+    "flixhq": {
+      "baseUrl": "https://flixhq.to",
+      "searchUrl": "/search/",
+      "enabled": false
+    }
   }
 }
