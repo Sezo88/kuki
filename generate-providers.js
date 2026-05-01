@@ -239,9 +239,13 @@ console.log("Toplam provider:", ids.length);
 ids.forEach(function(id) {
   var info = providers[id];
   var catInfo = CATEGORIES[id];
-  // JS üret
-  var js = makeProviderJS(id, info, catInfo);
-  fs.writeFileSync(path.join(outDir, id + ".js"), js, "utf8");
+  var targetPath = path.join(outDir, id + ".js");
+  var isCustom = fs.existsSync(targetPath) && fs.readFileSync(targetPath, "utf8").indexOf("// CUSTOM PROVIDER") !== -1;
+  
+  if (!isCustom) {
+    var js = makeProviderJS(id, info, catInfo);
+    fs.writeFileSync(targetPath, js, "utf8");
+  }
   // manifest girişi
   manifest.push(makeManifestEntry(id, info, catInfo));
   process.stdout.write("  ✅ " + id + "\n");
