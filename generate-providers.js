@@ -250,7 +250,12 @@ ids.forEach(function(id) {
   process.stdout.write("  ✅ " + id + "\n");
 });
 
-fs.writeFileSync("manifest.json", JSON.stringify(manifest, null, 2), "utf8");
+var manifestObj = {
+  name: "Nuvio-TR",
+  version: "1.0.0",
+  scrapers: manifest
+};
+fs.writeFileSync("manifest.json", JSON.stringify(manifestObj, null, 2), "utf8");
 console.log("\n✅ manifest.json güncellendi (" + manifest.length + " provider)");
 console.log("✅ providers/ klasörüne " + ids.length + " JS dosyası yazıldı");
 console.log("\nNuvio repo URL'si:");
