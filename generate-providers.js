@@ -205,7 +205,7 @@ module.exports = { getStreams: getStreams };
 `;
 }
 
-// manifest.json girişi üret
+// manifest.json girişi üret — Nuvio formatı
 function makeManifestEntry(id, info, catInfo) {
   return {
     id: id,
@@ -215,13 +215,10 @@ function makeManifestEntry(id, info, catInfo) {
     author: "Nuvio-TR",
     supportedTypes: catInfo ? catInfo.types : ["movie", "tv"],
     filename: "providers/" + id + ".js",
-    enabled: info.enabled !== false,
-    logo: info.baseUrl + "/favicon.ico",
-    contentLanguage: catInfo ? catInfo.lang : ["tr", "en"],
+    enabled: true,
     formats: ["mp4", "mkv", "m3u8"],
-    limited: false,
-    disabledPlatforms: [],
-    supportsExternalPlayer: true
+    logo: info.baseUrl + "/favicon.ico",
+    contentLanguage: catInfo ? catInfo.lang : ["tr", "en"]
   };
 }
 

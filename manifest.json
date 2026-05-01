@@ -14,19 +14,16 @@
       ],
       "filename": "providers/sinemacx.js",
       "enabled": true,
-      "logo": "https://www.sinemacx.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.sinemacx.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "jetfilmizle",
@@ -39,19 +36,16 @@
       ],
       "filename": "providers/jetfilmizle.js",
       "enabled": true,
-      "logo": "https://jetfilmizle.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://jetfilmizle.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "fullhdfilmizlesene",
@@ -64,19 +58,16 @@
       ],
       "filename": "providers/fullhdfilmizlesene.js",
       "enabled": true,
-      "logo": "https://www.fullhdfilmizlesene.live/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.fullhdfilmizlesene.live/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "sinewix",
@@ -90,20 +81,17 @@
       ],
       "filename": "providers/sinewix.js",
       "enabled": true,
-      "logo": "https://www.sinewix.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.sinewix.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en",
+        "ja"
+      ]
     },
     {
       "id": "dizifilm",
@@ -117,19 +105,16 @@
       ],
       "filename": "providers/dizifilm.js",
       "enabled": true,
-      "logo": "https://dizifilm.to/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://dizifilm.to/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "diziyou",
@@ -142,19 +127,16 @@
       ],
       "filename": "providers/diziyou.js",
       "enabled": true,
-      "logo": "https://www.diziyou.co/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.diziyou.co/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "hdfilmcehennemi",
@@ -167,19 +149,16 @@
       ],
       "filename": "providers/hdfilmcehennemi.js",
       "enabled": true,
-      "logo": "https://www.hdfilmcehennemi.nl/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.hdfilmcehennemi.nl/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizilla",
@@ -192,19 +171,16 @@
       ],
       "filename": "providers/dizilla.js",
       "enabled": true,
-      "logo": "https://www.dizilla.club/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizilla.club/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizimom",
@@ -217,19 +193,16 @@
       ],
       "filename": "providers/dizimom.js",
       "enabled": true,
-      "logo": "https://dizimom.pro/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://dizimom.pro/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizipal",
@@ -242,19 +215,16 @@
       ],
       "filename": "providers/dizipal.js",
       "enabled": true,
-      "logo": "https://www.dizipal.video/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizipal.video/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizibox",
@@ -267,19 +237,16 @@
       ],
       "filename": "providers/dizibox.js",
       "enabled": true,
-      "logo": "https://www.dizibox.mobi/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizibox.mobi/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizikorea",
@@ -292,19 +259,16 @@
       ],
       "filename": "providers/dizikorea.js",
       "enabled": true,
-      "logo": "https://www.dizikorea.biz/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ko"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizikorea.biz/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ko"
+      ]
     },
     {
       "id": "dizimag",
@@ -317,19 +281,16 @@
       ],
       "filename": "providers/dizimag.js",
       "enabled": true,
-      "logo": "https://www.dizimag.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizimag.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizigom",
@@ -342,19 +303,16 @@
       ],
       "filename": "providers/dizigom.js",
       "enabled": true,
-      "logo": "https://www.dizigom.bet/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizigom.bet/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "diziyoo",
@@ -367,19 +325,16 @@
       ],
       "filename": "providers/diziyoo.js",
       "enabled": true,
-      "logo": "https://www.diziyoo.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.diziyoo.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "diziwatch",
@@ -392,19 +347,16 @@
       ],
       "filename": "providers/diziwatch.js",
       "enabled": true,
-      "logo": "https://www.diziwatch.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.diziwatch.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "filmmakinesi",
@@ -417,19 +369,16 @@
       ],
       "filename": "providers/filmmakinesi.js",
       "enabled": true,
-      "logo": "https://www.filmmakinesi.mobi/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.filmmakinesi.mobi/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "filmmodu",
@@ -442,19 +391,16 @@
       ],
       "filename": "providers/filmmodu.js",
       "enabled": true,
-      "logo": "https://www.filmmodu.biz/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.filmmodu.biz/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "filmekseni",
@@ -467,19 +413,16 @@
       ],
       "filename": "providers/filmekseni.js",
       "enabled": true,
-      "logo": "https://www.filmekseni.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.filmekseni.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "setfilmizle",
@@ -492,19 +435,16 @@
       ],
       "filename": "providers/setfilmizle.js",
       "enabled": true,
-      "logo": "https://www.setfilmizle.mobi/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.setfilmizle.mobi/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "sezonlukdizi",
@@ -517,19 +457,16 @@
       ],
       "filename": "providers/sezonlukdizi.js",
       "enabled": true,
-      "logo": "https://www.sezonlukdizi.mobi/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.sezonlukdizi.mobi/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "ugurfilm",
@@ -542,19 +479,16 @@
       ],
       "filename": "providers/ugurfilm.js",
       "enabled": true,
-      "logo": "https://ugurfilm.biz/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://ugurfilm.biz/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "watch2movies",
@@ -568,19 +502,16 @@
       ],
       "filename": "providers/watch2movies.js",
       "enabled": true,
-      "logo": "https://watch2movies.biz/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://watch2movies.biz/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "turkanime",
@@ -593,19 +524,16 @@
       ],
       "filename": "providers/turkanime.js",
       "enabled": true,
-      "logo": "https://www.turkanime.co/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.turkanime.co/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ja"
+      ]
     },
     {
       "id": "tranimeizle",
@@ -618,19 +546,16 @@
       ],
       "filename": "providers/tranimeizle.js",
       "enabled": true,
-      "logo": "https://www.tranimeizle.co/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.tranimeizle.co/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ja"
+      ]
     },
     {
       "id": "animecix",
@@ -643,19 +568,16 @@
       ],
       "filename": "providers/animecix.js",
       "enabled": true,
-      "logo": "https://animecix.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://animecix.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ja"
+      ]
     },
     {
       "id": "koreanturk",
@@ -668,19 +590,16 @@
       ],
       "filename": "providers/koreanturk.js",
       "enabled": true,
-      "logo": "https://www.koreanturk.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ko"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.koreanturk.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ko"
+      ]
     },
     {
       "id": "webdramaturkey",
@@ -693,20 +612,17 @@
       ],
       "filename": "providers/webdramaturkey.js",
       "enabled": true,
-      "logo": "https://www.webdramaturkey.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en",
-        "ko"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.webdramaturkey.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en",
+        "ko"
+      ]
     },
     {
       "id": "belgeselx",
@@ -719,19 +635,16 @@
       ],
       "filename": "providers/belgeselx.js",
       "enabled": true,
-      "logo": "https://www.belgeselx.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.belgeselx.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "inatbox",
@@ -745,19 +658,16 @@
       ],
       "filename": "providers/inatbox.js",
       "enabled": true,
-      "logo": "https://www.inatbox.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.inatbox.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "rarefilmm",
@@ -770,18 +680,15 @@
       ],
       "filename": "providers/rarefilmm.js",
       "enabled": true,
-      "logo": "https://rarefilmm.com/favicon.ico",
-      "contentLanguage": [
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://rarefilmm.com/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "rectv",
@@ -795,19 +702,16 @@
       ],
       "filename": "providers/rectv.js",
       "enabled": true,
-      "logo": "https://www.rectv555.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.rectv555.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "kultfilmler",
@@ -820,18 +724,15 @@
       ],
       "filename": "providers/kultfilmler.js",
       "enabled": true,
-      "logo": "https://kultfilmler.net/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://kultfilmler.net/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "yesilcamtv",
@@ -844,18 +745,15 @@
       ],
       "filename": "providers/yesilcamtv.js",
       "enabled": true,
-      "logo": "https://www.yesilcamtv.mobi/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.yesilcamtv.mobi/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "yenwatch",
@@ -869,19 +767,16 @@
       ],
       "filename": "providers/yenwatch.js",
       "enabled": true,
-      "logo": "https://yeniwatch.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://yeniwatch.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "sinezy",
@@ -894,19 +789,16 @@
       ],
       "filename": "providers/sinezy.js",
       "enabled": true,
-      "logo": "https://sinezy.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://sinezy.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "sinefy",
@@ -919,19 +811,16 @@
       ],
       "filename": "providers/sinefy.js",
       "enabled": true,
-      "logo": "https://sinefy.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://sinefy.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "cizgimax",
@@ -944,18 +833,15 @@
       ],
       "filename": "providers/cizgimax.js",
       "enabled": true,
-      "logo": "https://www.cizgimax.net/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.cizgimax.net/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "cizgivedizi",
@@ -968,18 +854,15 @@
       ],
       "filename": "providers/cizgivedizi.js",
       "enabled": true,
-      "logo": "https://www.cizgivedizi.com/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.cizgivedizi.com/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "openanime",
@@ -992,19 +875,16 @@
       ],
       "filename": "providers/openanime.js",
       "enabled": true,
-      "logo": "https://openanime.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://openanime.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ja"
+      ]
     },
     {
       "id": "kanald",
@@ -1017,18 +897,15 @@
       ],
       "filename": "providers/kanald.js",
       "enabled": true,
-      "logo": "https://www.kanald.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.kanald.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "kicktr",
@@ -1042,19 +919,16 @@
       ],
       "filename": "providers/kicktr.js",
       "enabled": true,
-      "logo": "https://www.kick.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.kick.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "selcukflix",
@@ -1068,19 +942,16 @@
       ],
       "filename": "providers/selcukflix.js",
       "enabled": true,
-      "logo": "https://selcukflix.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://selcukflix.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "mirrorverse",
@@ -1094,19 +965,16 @@
       ],
       "filename": "providers/mirrorverse.js",
       "enabled": true,
-      "logo": "https://mirrorverse.xyz/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://mirrorverse.xyz/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "onepacetr",
@@ -1120,19 +988,16 @@
       ],
       "filename": "providers/onepacetr.js",
       "enabled": true,
-      "logo": "https://onepace.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://onepace.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "tvdiziler",
@@ -1145,18 +1010,15 @@
       ],
       "filename": "providers/tvdiziler.js",
       "enabled": true,
-      "logo": "https://www.tvdiziler.com/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.tvdiziler.com/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "yabancidizi",
@@ -1169,19 +1031,16 @@
       ],
       "filename": "providers/yabancidizi.js",
       "enabled": true,
-      "logo": "https://www.yabancidizi.tv/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.yabancidizi.tv/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "roketdizi",
@@ -1194,19 +1053,16 @@
       ],
       "filename": "providers/roketdizi.js",
       "enabled": true,
-      "logo": "https://www.roketdizi.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.roketdizi.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "superfilmgeldi",
@@ -1219,19 +1075,16 @@
       ],
       "filename": "providers/superfilmgeldi.js",
       "enabled": true,
-      "logo": "https://superfilmgeldi.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://superfilmgeldi.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "netflixmirror",
@@ -1245,19 +1098,16 @@
       ],
       "filename": "providers/netflixmirror.js",
       "enabled": true,
-      "logo": "https://netflixmirror.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://netflixmirror.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "izleai",
@@ -1271,19 +1121,16 @@
       ],
       "filename": "providers/izleai.js",
       "enabled": true,
-      "logo": "https://izle.ai/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://izle.ai/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "fullhdfilm",
@@ -1296,19 +1143,16 @@
       ],
       "filename": "providers/fullhdfilm.js",
       "enabled": true,
-      "logo": "https://www.fullhdfilm.pro/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.fullhdfilm.pro/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "hdfilmizle",
@@ -1321,19 +1165,16 @@
       ],
       "filename": "providers/hdfilmizle.js",
       "enabled": true,
-      "logo": "https://www.hdfilmizle.sbs/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.hdfilmizle.sbs/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "webteleizle",
@@ -1347,19 +1188,16 @@
       ],
       "filename": "providers/webteleizle.js",
       "enabled": true,
-      "logo": "https://www.webteizle.pro/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.webteizle.pro/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "diziasia",
@@ -1372,20 +1210,17 @@
       ],
       "filename": "providers/diziasia.js",
       "enabled": true,
-      "logo": "https://www.diziasia.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ko",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.diziasia.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ko",
+        "ja"
+      ]
     },
     {
       "id": "diziasya",
@@ -1398,20 +1233,17 @@
       ],
       "filename": "providers/diziasya.js",
       "enabled": true,
-      "logo": "https://www.diziasya.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ko",
-        "ja"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.diziasya.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ko",
+        "ja"
+      ]
     },
     {
       "id": "asyadizi",
@@ -1424,19 +1256,16 @@
       ],
       "filename": "providers/asyadizi.js",
       "enabled": true,
-      "logo": "https://www.birasyamizi.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ko"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.birasyamizi.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ko"
+      ]
     },
     {
       "id": "asya_film",
@@ -1449,19 +1278,16 @@
       ],
       "filename": "providers/asya_film.js",
       "enabled": true,
-      "logo": "https://www.asyafilmizlesene.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "ko"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.asyafilmizlesene.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "ko"
+      ]
     },
     {
       "id": "dizilife",
@@ -1474,19 +1300,16 @@
       ],
       "filename": "providers/dizilife.js",
       "enabled": true,
-      "logo": "https://dizilife.me/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://dizilife.me/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "filmkovasi",
@@ -1499,19 +1322,16 @@
       ],
       "filename": "providers/filmkovasi.js",
       "enabled": true,
-      "logo": "https://www.filmkovasi.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.filmkovasi.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "filmhane",
@@ -1524,19 +1344,16 @@
       ],
       "filename": "providers/filmhane.js",
       "enabled": true,
-      "logo": "https://www.filmhane.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.filmhane.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "wfilmizle",
@@ -1549,19 +1366,16 @@
       ],
       "filename": "providers/wfilmizle.js",
       "enabled": true,
-      "logo": "https://wfilmizle.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://wfilmizle.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizican",
@@ -1574,19 +1388,16 @@
       ],
       "filename": "providers/dizican.js",
       "enabled": true,
-      "logo": "https://www.dizican.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dizican.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "dizist",
@@ -1599,19 +1410,16 @@
       ],
       "filename": "providers/dizist.js",
       "enabled": true,
-      "logo": "https://dizist.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://dizist.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "golgetv",
@@ -1624,18 +1432,15 @@
       ],
       "filename": "providers/golgetv.js",
       "enabled": true,
-      "logo": "https://golgetv.com/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://golgetv.com/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "inikocanli",
@@ -1649,19 +1454,16 @@
       ],
       "filename": "providers/inikocanli.js",
       "enabled": true,
-      "logo": "https://www.ginikocanli.com/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.ginikocanli.com/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "trt1",
@@ -1674,18 +1476,15 @@
       ],
       "filename": "providers/trt1.js",
       "enabled": true,
-      "logo": "https://www.trt1.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.trt1.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "trt_cocuk",
@@ -1698,18 +1497,15 @@
       ],
       "filename": "providers/trt_cocuk.js",
       "enabled": true,
-      "logo": "https://www.trtcocuk.net.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.trtcocuk.net.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "showtv",
@@ -1722,18 +1518,15 @@
       ],
       "filename": "providers/showtv.js",
       "enabled": true,
-      "logo": "https://www.showtv.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.showtv.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "atv",
@@ -1746,18 +1539,15 @@
       ],
       "filename": "providers/atv.js",
       "enabled": true,
-      "logo": "https://www.atv.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.atv.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "startv",
@@ -1770,18 +1560,15 @@
       ],
       "filename": "providers/startv.js",
       "enabled": true,
-      "logo": "https://www.startv.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.startv.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "tv8",
@@ -1794,18 +1581,15 @@
       ],
       "filename": "providers/tv8.js",
       "enabled": true,
-      "logo": "https://www.tv8.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.tv8.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "teve2",
@@ -1818,18 +1602,15 @@
       ],
       "filename": "providers/teve2.js",
       "enabled": true,
-      "logo": "https://www.teve2.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.teve2.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "dmax",
@@ -1842,18 +1623,15 @@
       ],
       "filename": "providers/dmax.js",
       "enabled": true,
-      "logo": "https://www.dmax.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.dmax.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "nowtv",
@@ -1866,18 +1644,15 @@
       ],
       "filename": "providers/nowtv.js",
       "enabled": true,
-      "logo": "https://www.nowtv.com.tr/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://www.nowtv.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "trdizi_izle",
@@ -1890,18 +1665,15 @@
       ],
       "filename": "providers/trdizi_izle.js",
       "enabled": true,
-      "logo": "https://trdiziizle.net/favicon.ico",
-      "contentLanguage": [
-        "tr"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://trdiziizle.net/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "sezonluk_film",
@@ -1915,19 +1687,16 @@
       ],
       "filename": "providers/sezonluk_film.js",
       "enabled": true,
-      "logo": "https://sezonlukfilm.net/favicon.ico",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://sezonlukfilm.net/favicon.ico",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "yts",
@@ -1940,18 +1709,15 @@
       ],
       "filename": "providers/yts.js",
       "enabled": true,
-      "logo": "https://yts.mx/favicon.ico",
-      "contentLanguage": [
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://yts.mx/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "flixhq",
@@ -1965,18 +1731,15 @@
       ],
       "filename": "providers/flixhq.js",
       "enabled": true,
-      "logo": "https://flixhq.to/favicon.ico",
-      "contentLanguage": [
-        "en"
-      ],
       "formats": [
         "mp4",
         "mkv",
         "m3u8"
       ],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "logo": "https://flixhq.to/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
     }
   ]
 }
