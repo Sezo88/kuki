@@ -1,6 +1,6 @@
 {
   "_comment": "Tüm provider URL'leri. GitHub Actions her gün otomatik kontrol eder ve günceller.",
-  "_last_checked": "2026-04-30",
+  "_last_checked": "2026-05-02 06:00 UTC",
   "_version": "2.0.0",
   "providers": {
     "sinemacx": {
@@ -54,7 +54,7 @@
       "enabled": false
     },
     "dizibox": {
-      "baseUrl": "https://www.dizibox.mobi",
+      "baseUrl": "https://www.dizibox.co",
       "searchUrl": "/?s=",
       "enabled": true
     },
